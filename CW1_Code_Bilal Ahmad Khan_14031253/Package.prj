@@ -1,0 +1,117 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="2990189177" file="E:\CW1_NNFS\CW1_Code_Bilal Ahmad Khan_14031253\CW1_Code_Bilal Ahmad Khan_14031253.prj" location="E:\CW1_NNFS\CW1_Code_Bilal Ahmad Khan_14031253" name="CW1_Code_Bilal Ahmad Khan_14031253" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>CW1_Code_Bilal Ahmad Khan_14031253</param.appname>
+    <param.authnamewatermark>Bilal Ahmad Khan</param.authnamewatermark>
+    <param.email>bilal2014@namal.edu.pk</param.email>
+    <param.company />
+    <param.summary>Breast Cancer Classification using neural networks approach</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\CW1_Code_Bilal Ahmad Khan_14031253.mltbx</param.output>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Neural Network Toolbox</item>
+      <item>Simulink</item>
+      <item>SystemTest</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>12</item>
+      <item>2</item>
+      <item>77</item>
+    </param.products.id>
+    <param.products.version>
+      <item>8.5</item>
+      <item>8.3</item>
+      <item>8.5</item>
+      <item>2.6.9</item>
+    </param.products.version>
+    <param.platforms />
+    <param.guid>9b2397d3-5fab-4476-a881-da8b7db913d6</param.guid>
+    <param.exclude.filters />
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples/&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.docs />
+    <unset>
+      <param.authnamewatermark />
+      <param.company />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.output />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.demosxml />
+      <param.apps />
+      <param.docs />
+    </unset>
+    <fileset.rootdir>
+      <file>E:\CW1_NNFS\CW1_Code_Bilal Ahmad Khan_14031253</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\breastCancerDataSet.m</file>
+      <file>${PROJECT_ROOT}\myNet.asv</file>
+      <file>${PROJECT_ROOT}\myNet.m</file>
+      <file>${PROJECT_ROOT}\myProcess.asv</file>
+      <file>${PROJECT_ROOT}\myProcess.m</file>
+      <file>${PROJECT_ROOT}\simulation.asv</file>
+      <file>${PROJECT_ROOT}\simulation.m</file>
+      <file>${PROJECT_ROOT}\trainNet.asv</file>
+      <file>${PROJECT_ROOT}\trainNet.m</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="E:\CW1_NNFS\CW1_Code_Bilal Ahmad Khan_14031253" name="CW1_Code_Bilal Ahmad Khan_14031253.mltbx" optional="false">E:\CW1_NNFS\CW1_Code_Bilal Ahmad Khan_14031253\CW1_Code_Bilal Ahmad Khan_14031253.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\MATLAB Production Server\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
